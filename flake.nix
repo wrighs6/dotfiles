@@ -2,13 +2,14 @@
   description = "wrighs6's NixOS config";
 
   inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs/nixos-22.11";
+    nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
 
     home-manager.url = "github:nix-community/home-manager";
     home-manager.inputs.nixpkgs.follows = "nixpkgs";
 
     # TODO: Add any other flake you might need
     # hardware.url = "github:nixos/nixos-hardware";
+    zig.url = "github:mitchellh/zig-overlay";
     helix.url = "github:helix-editor/helix";
     prismlauncher.url = "github:PrismLauncher/PrismLauncher";
 

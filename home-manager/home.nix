@@ -13,6 +13,7 @@
       # If you want to use overlays exported from other flakes:
       # neovim-nightly-overlay.overlays.default
       inputs.prismlauncher.overlays.default
+      inputs.zig.overlays.default
 
       # Or define it inline, for example:
       # (final: prev: {
@@ -53,6 +54,7 @@
     calibre
     nicotine-plus
     prismlauncher
+    zigpkgs.master
   ];
 
   # Enable home-manager
