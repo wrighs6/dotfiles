@@ -12,6 +12,7 @@
     overlays = [
       # If you want to use overlays exported from other flakes:
       # neovim-nightly-overlay.overlays.default
+      inputs.prismlauncher.overlays.default
 
       # Or define it inline, for example:
       # (final: prev: {
@@ -38,20 +39,20 @@
       userName  = "wrighs6";
       userEmail = "wrighs6@rpi.edu";
       extraConfig = {
-        core.editor = "vim";
+        core.editor = "hx";
         init.defaultBranch = "main";
       };
     };
 
   home.packages = with pkgs; [
     steam
-    prismlauncher
     wine
     lutris
     dolphin-emu-beta
     strawberry
     calibre
     nicotine-plus
+    prismlauncher
   ];
 
   # Enable home-manager

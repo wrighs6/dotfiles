@@ -42,8 +42,6 @@
     };
   };
 
-  # FIXME: Add the rest of your current configuration
-
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
   boot.loader.efi.efiSysMountPoint = "/boot/efi";
@@ -91,13 +89,14 @@
 
   users.users = {
     wrighs6 = {
+      description = "Stephen Wright";
       isNormalUser = true;
       extraGroups = [ "wheel" "networkmanager" ];
     };
   };
-
+  
   environment.systemPackages = with pkgs; [
-    vim
+    helix
     wget
     git
     htop

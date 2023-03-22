@@ -9,6 +9,8 @@
 
     # TODO: Add any other flake you might need
     # hardware.url = "github:nixos/nixos-hardware";
+    helix.url = "github:helix-editor/helix";
+    prismlauncher.url = "github:PrismLauncher/PrismLauncher";
 
     # Shameless plug: looking for a way to nixify your themes and make
     # everything match nicely? Try nix-colors!
