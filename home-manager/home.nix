@@ -57,6 +57,7 @@
     zigpkgs.master
     python311
     pipenv
+    nodejs
   ];
 
   # Enable home-manager
