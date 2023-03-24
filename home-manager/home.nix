@@ -55,6 +55,7 @@
     nicotine-plus
     prismlauncher
     zigpkgs.master
+    python311
     pipenv
   ];
 
