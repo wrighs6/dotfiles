@@ -60,6 +60,7 @@
     nodejs
     gdb
     texlive.combined.scheme-full
+    valgrind
   ];
 
   # Enable home-manager
