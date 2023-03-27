@@ -58,6 +58,8 @@
     python311
     pipenv
     nodejs
+    gdb
+    texlive.combined.scheme-full
   ];
 
   # Enable home-manager
