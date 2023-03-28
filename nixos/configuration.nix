@@ -91,7 +91,7 @@
     wrighs6 = {
       description = "Stephen Wright";
       isNormalUser = true;
-      extraGroups = [ "wheel" "networkmanager" ];
+      extraGroups = [ "wheel" "networkmanager" "docker" ];
     };
   };
   
@@ -109,6 +109,8 @@
   ];
 
   programs.steam.enable = true;
+
+  virtualisation.docker.enable = true;
 
   environment.sessionVariables = rec {
     XDG_CACHE_HOME  = "\${HOME}/.cache";
