@@ -35,15 +35,15 @@
   };
 
   # Add stuff for your user as you see fit:
-    programs.git = {
-      enable = true;
-      userName  = "wrighs6";
-      userEmail = "wrighs6@rpi.edu";
-      extraConfig = {
-        core.editor = "hx";
-        init.defaultBranch = "main";
-      };
+  programs.git = {
+    enable = true;
+    userName  = "wrighs6";
+    userEmail = "wrighs6@rpi.edu";
+    extraConfig = {
+      core.editor = "hx";
+      init.defaultBranch = "main";
     };
+  };
 
   home.packages = with pkgs; [
     steam
