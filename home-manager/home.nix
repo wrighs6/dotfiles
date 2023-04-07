@@ -62,6 +62,7 @@
     texlive.combined.scheme-full
     valgrind
     postgresql
+    gcc
   ];
 
   # Enable home-manager
