@@ -49,6 +49,10 @@
   networking.hostName = "katahdin";
   networking.networkmanager.enable = true;
   networking.firewall.checkReversePath = false;
+  networking.firewall = {
+    enable = true;
+    allowedTCPPorts = [ 50084 ];
+  };
 
   time.timeZone = "America/New_York";
 
