@@ -63,6 +63,7 @@
     valgrind
     postgresql
     gcc
+    ardour
   ];
 
   # Enable home-manager
