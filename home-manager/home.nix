@@ -67,6 +67,7 @@
     libsForQt5.kamoso
     usbutils
     jq
+    jdk17
   ];
 
   # Enable home-manager
