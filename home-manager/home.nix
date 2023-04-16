@@ -64,6 +64,9 @@
     postgresql
     gcc
     ardour
+    libsForQt5.kamoso
+    usbutils
+    jq
   ];
 
   # Enable home-manager
