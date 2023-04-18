@@ -51,7 +51,8 @@
   networking.firewall.checkReversePath = false;
   networking.firewall = {
     enable = true;
-    allowedTCPPorts = [ 50084 ];
+    allowedTCPPorts = [ 50084 57080 ];
+    allowedUDPPorts = [ 57080 ];
   };
 
   time.timeZone = "America/New_York";

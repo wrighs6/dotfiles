@@ -68,6 +68,8 @@
     usbutils
     jq
     jdk17
+    ark
+    transmission-qt
   ];
 
   # Enable home-manager
